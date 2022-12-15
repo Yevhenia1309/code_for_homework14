@@ -1,0 +1,31 @@
+#Домашнє завдання:
+#Рознесіть класи, які використовували під час вирішення завдання про групу студентів по модулям. Переконайтеся у працездатності проєктів.
+import Modul_Student
+import Modul_Group
+
+student_1 = Modul_Student.Student('Alexander', "Yurievich", 'Tvix', 18, 'UNI', "law")
+student_2 = Modul_Student.Student('Iryna', 'Victorivna', 'Mazur', 19, 'UNI', 'economic')
+student_3 = Modul_Student.Student('Vlad', 'Olegovich', 'Nofer', 26, 'UNI', 'veterinary')
+student_4 = Modul_Student.Student('Olha', 'Yurievna', 'Bryk', 23, 'UNI', 'mechanic')
+student_5 = Modul_Student.Student('Dmitriy', "Vasilievich", 'Acunin', 18, 'UNI', 'law')
+student_6 = Modul_Student.Student('Maryna', 'Victorivna', 'Tvix', 19, 'UNI', 'economic')
+student_7 = Modul_Student.Student('Anna', 'Olexandrivna', 'Mon', 20, 'UNI', 'veterinary')
+student_8 = Modul_Student.Student('Kira', 'Viktorivna', 'Longer', 18, 'UNI', 'mechanic')
+student_9 = Modul_Student.Student('Kira', 'Viktorivna', 'Longer', 18, 'UNI', 'mechanic')
+student_10 = Modul_Student.Student('Kateryna', 'Ivanivna', 'Lotr', 19, 'UNI', 'economic')
+student_11 = Modul_Student.Student('Valeriy', 'Dmitrievich', 'Lif', 28, 'UNI', 'law')
+
+group_english = Modul_Group.Group('English group')
+group_english.add_student(student_1)
+group_english.add_student(student_2)
+group_english.add_student(student_3)
+group_english.add_student(student_4)
+group_english.add_student(student_5)
+group_english.add_student(student_6)
+group_english.add_student(student_7)
+group_english.add_student(student_8)
+group_english.add_student(student_9)
+group_english.add_student(student_10)
+
+
+print(group_english)
